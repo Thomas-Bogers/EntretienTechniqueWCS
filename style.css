@@ -1,0 +1,58 @@
+body {
+  background-color: #e0ddd5;
+  font-family: "Fanwood Text", serif;
+  color: #2e3546;
+}
+
+h1 {
+  font-family: "Inknut Antiqua", serif;
+  font-size: 36px;
+  text-shadow: 1px 1px #333;
+  text-align: center;
+  color: #c6934b;
+  padding-top: 18px;
+}
+
+ul {
+  background: #283d70;
+  display: flex;
+  justify-content: space-around;
+  padding: 12px;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  color: #c6934b;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: goldenrod;
+}
+
+header {
+  text-align: center;
+}
+
+#heroes {
+  height: 400px;
+  background-image: url("assets/ancientheroes.png");
+  background-size: cover;
+}
+
+section:not(#heroes) {
+  padding: 40px;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#royalFamily .flex-container div {
+  flex: 1 1 0;
+}
