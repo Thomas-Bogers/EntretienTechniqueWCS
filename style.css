@@ -10,7 +10,7 @@ h1 {
   text-shadow: 1px 1px #333;
   text-align: center;
   color: #c6934b;
-  padding-top: 18px;
+  padding-top: 36px;
 }
 
 ul {
@@ -38,7 +38,7 @@ header {
 }
 
 #heroes {
-  height: 400px;
+  height: 800px;
   background-image: url("assets/ancientheroes.png");
   background-size: cover;
 }
@@ -90,4 +90,8 @@ input[type="submit"] {
   color: #e0ddd5;
   border: none;
   padding: 5px 10px;
+}
+
+.princessCaption {
+  font-size: 10px;
 }
